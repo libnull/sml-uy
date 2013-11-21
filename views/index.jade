@@ -19,10 +19,10 @@ html(lang="es")
               a(href="#") Portada
             li.divider
             li.active
-              a(href="#") ¿Qué es?
+              a(href="#about") ¿Qué es?
             li.divider
             li.active
-              a(href="#") Cronograma
+              a(href="#schedule") Cronograma
             li.divider
             li.active
               a(href="#") Participantes
@@ -35,7 +35,7 @@ html(lang="es")
             li.divider
 
     #main
-      .row
+      #about.row
         .large-12.columns
           h1 ¿Qué es?
           p(style="white-space:pre;")
@@ -52,7 +52,7 @@ html(lang="es")
             | conjunto con el Barrio de las Artes y con la participación de los sellos independientes Vía Láctea, Feel de Agua, 
             | El Festival de Música Libre (FML) será realizado en un espacio abierto en la esquina de las calles Soriano y Ciudadela. 
 
-      .row
+      #schedule.row
         .large-12.columns
           h1 Cronograma
           p
@@ -98,3 +98,4 @@ html(lang="es")
     script(src="//api.tiles.mapbox.com/mapbox.js/v1.4.2/mapbox.js")
     script(src="stylesheets/foundation/js/vendor/custom.modernizr.js")
     script(src="javascripts/main.js")
+    script(src="javascripts/jquery-scrollspy.js")
