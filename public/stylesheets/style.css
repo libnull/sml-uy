@@ -1,18 +1,23 @@
 body {
-  position: initial;
-  /*overflow: hidden;*/
+    position: initial;
+    overflow: hidden;
 }
 
 h1 {
-  font-family: 'Poiret One', sans-serif;
-  margin-top: 100px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: normal;
+    margin-top: 100px;
 }
 
 .row {
-  min-height: 100%;
-  padding: 0 10%;
-  position: absolute;
-  min-width: 100%;
+    min-height: 100%;
+    padding: 0 10%;
+    position: absolute;
+    min-width: 100%;
+}
+
+.top-bar {
+    height: 70px;
 }
 
 .top-bar-section ul {
@@ -20,7 +25,28 @@ h1 {
 }
 
 .top-bar-section ul li {
-display: table-cell;
+    display: table-cell;
+    height: 100%;
+    background: none;
+}
+
+.top-bar-section ul li.active > a {
+    background: none;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+.top-bar-section li a:not(.button) {
+    background: none;
+    line-height: 70px;
+}
+
+.top-bar-section > ul > .divider {
+    border: none;
+}
+
+.top-bar-link {
+    font-family: 'Oswald';
 }
 
 .day {
@@ -29,8 +55,8 @@ display: table-cell;
 }
 
 #about {
-  background-color: #729fcf;
-  top: 0%;
+    background-color: #729fcf;
+    top: 0%;
 }
 
 #schedule {
@@ -48,5 +74,5 @@ display: table-cell;
 }
 
 #map {
-  top: 300%;
+  top: 200%;
 }
