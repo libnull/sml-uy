@@ -1,6 +1,6 @@
 body {
   position: initial;
-  overflow: hidden;
+  /*overflow: hidden;*/
 }
 
 h1 {
@@ -23,6 +23,11 @@ h1 {
 display: table-cell;
 }
 
+.day {
+  background-color: #eee;
+  margin-bottom: 20px;
+}
+
 #about {
   background-color: #729fcf;
   top: 0%;
@@ -32,6 +37,16 @@ display: table-cell;
   top: 100%;
 }
 
+#schedule table {
+  background-color: transparent;
+  border: 0;
+  font-size: 1.5em;
+}
+
+#schedule table tr {
+  background-color: transparent;
+}
+
 #map {
-  top: 200%;
+  top: 300%;
 }
