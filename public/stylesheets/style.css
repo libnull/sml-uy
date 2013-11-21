@@ -1,11 +1,15 @@
+body {
+  position: initial;
+  overflow: hidden;
+}
+
 h1 {
   font-family: 'Poiret One', sans-serif;
   margin-top: 100px;
 }
 
 .row {
-  display: block;
-  height: 100%;
+  min-height: 100%;
   padding: 0 10%;
   position: absolute;
   min-width: 100%;
@@ -19,15 +23,15 @@ h1 {
 display: table-cell;
 }
 
-#main {
-  /*margin-top: 100px;*/
-}
-
 #about {
   background-color: #729fcf;
-  top: 100%;
+  top: 0%;
 }
 
 #schedule {
+  top: 100%;
+}
+
+#map {
   top: 200%;
 }
