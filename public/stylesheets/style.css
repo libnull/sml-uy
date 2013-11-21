@@ -1,6 +1,5 @@
 body {
     position: initial;
-    /*overflow: hidden;*/
 }
 
 h1 {
@@ -10,7 +9,6 @@ h1 {
 }
 
 .row {
-    min-height: 100%;
     padding: 0 10%;
     position: absolute;
     min-width: 100%;
@@ -56,11 +54,6 @@ h1 {
 
 #about {
     background-color: #729fcf;
-    top: 0%;
-}
-
-#schedule {
-  top: 100%;
 }
 
 #schedule table {
@@ -71,8 +64,4 @@ h1 {
 
 #schedule table tr {
   background-color: transparent;
-}
-
-#map {
-  top: 300%;
 }

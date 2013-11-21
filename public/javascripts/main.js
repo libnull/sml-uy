@@ -1,9 +1,9 @@
-var map = L.mapbox.map('map', 'libnull.gba58pgl');
+//var map = L.mapbox.map('map', 'libnull.gba58pgl');
 
-map.dragging.disable();
-map.touchZoom.disable();
-map.doubleClickZoom.disable();
-map.scrollWheelZoom.disable();
+//map.dragging.disable();
+//map.touchZoom.disable();
+//map.doubleClickZoom.disable();
+//map.scrollWheelZoom.disable();
 
 $('a[href*=#]:not([href=#])').click(function() {
   if (location.pathname.replace(/^\//, '') === this.pathname.replace(/^\//, '') && location.hostname === this.hostname) {
@@ -20,4 +20,10 @@ $('a[href*=#]:not([href=#])').click(function() {
   }
 });
 
-//$('body').slimscroll({height:'100px'});
+$('.row').each(function() {
+  var prevElemHeight = $(this).prev().height();
+
+  $(this).css({top: prevElemHeight + 'px'});
+});
+
+//$('#main').slimScroll({height:'800px'});
