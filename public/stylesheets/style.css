@@ -4,7 +4,8 @@ body {
 }
 
 h1 {
-    font-family: 'Poiret One', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-weight: normal;
     margin-top: 100px;
 }
 
@@ -33,6 +34,8 @@ h1 {
 
 .top-bar-section ul li.active > a {
     background: none;
+    font-weight: normal;
+    font-size: 18px;
 }
 
 .top-bar-section li a:not(.button) {
@@ -42,6 +45,10 @@ h1 {
 
 .top-bar-section > ul > .divider {
     border: none;
+}
+
+.top-bar-link {
+    font-family: 'Oswald';
 }
 
 #about {
