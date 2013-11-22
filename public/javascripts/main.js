@@ -25,5 +25,3 @@ $('.row:not(#map)').each(function() {
 
   $(this).css({top: prevElemHeight + 'px'});
 });
-
-//$('#main').slimScroll({height:'800px'});
