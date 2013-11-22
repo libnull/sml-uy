@@ -1,6 +1,5 @@
 body {
     position: initial;
-    /*overflow: hidden;*/
 }
 
 h1 {
@@ -49,17 +48,21 @@ h1 {
     font-family: 'Oswald';
 }
 
-.day {
-  background-color: #eee;
-  margin-bottom: 20px;
-}
-
 #main {
   margin-top: 70px;
 }
 
 #about {
     background-color: #729fcf;
+}
+
+#schedule {
+  background-color: #fa946e;
+}
+
+#schedule .day {
+  background-color: #f0d2a4;
+  margin-bottom: 20px;
 }
 
 #schedule table {
@@ -76,14 +79,6 @@ h1 {
   height: 600px;
 }
 
-.logos {
-    top: 50%;
-}
-
 .logo {
     width: 150px;
-}
-
-li.logo-sello {
-    padding: 20px 20px;
 }
