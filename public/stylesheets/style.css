@@ -1,6 +1,6 @@
 body {
     position: initial;
-    overflow: hidden;
+    /*overflow: hidden;*/
 }
 
 h1 {
@@ -66,18 +66,6 @@ h1 {
 
 #schedule table tr {
   background-color: transparent;
-}
-
-#labels {
-    top: 400%;
-}
-
-#map {
-  top: 600%;
-}
-
-.logos {
-    top: 50%;
 }
 
 .logo {
