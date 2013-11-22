@@ -76,6 +76,10 @@ h1 {
   height: 600px;
 }
 
+.logos {
+    top: 50%;
+}
+
 .logo {
     width: 150px;
 }

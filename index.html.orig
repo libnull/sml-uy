@@ -1,0 +1,411 @@
+<<<<<<< HEAD
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"> 
+        <title>Semana de la Música Libre</title>
+        <link rel="stylesheet" href="public/stylesheets/foundation/css/normalize.css">
+        <link rel="stylesheet" href="public/stylesheets/foundation/css/foundation.css">
+        <link rel="stylesheet" href="public/stylesheets/style.css">
+        <link rel="stylesheet" href="http://api.tiles.mapbox.com/mapbox.js/v1.4.2/mapbox.css">
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Oswald">
+    </head>
+
+    <body>
+        <div class="contain-to-grid fixed">
+            <nav class="top-bar">
+                <ul class="title-area">
+                    <li class="name"></li>
+                </ul>
+                <section class="top-bar-section">
+                    <ul>
+                        <li class="divider"></li>
+                        <li class="active">
+                            <a href="#" class="top-bar-link">Portada</a>
+                        </li>
+                        <li class="divider"></li>
+                        <li class="active">
+                            <a href="#about" class="top-bar-link">¿Qué es?</a>
+                        </li>
+                        <li class="divider"></li>
+                        <li class="active">
+                            <a href="#schedule" class="top-bar-link">Cronograma</a>
+                        </li>
+                        <li class="divider"></li>
+                        <li class="active">
+                            <a href="#" class="top-bar-link">Participan</a>
+                        </li>
+                        <li class="divider"></li>
+                        <li class="active">
+                            <a href="#" class="top-bar-link">Cómo llegar</a>
+                        </li>
+                        <li class="divider"></li>
+                        <li class="active">
+                            <a href="#" class="top-bar-link">Contacto</a>
+                        </li>
+                        <li class="divider"></li>
+                    </ul>
+                </section>
+            </nav>
+        </div>
+
+        <div id="main">
+
+            <div id="about" class="row">
+                <div class="large-12 columns">
+                    <h1>¿Qué es?</h1>
+                    <p>Durante la última semana del mes de noviembre se llevará a cabo en Uruguay la Semana de la Música Libre (SML), evento que contará con actividades, charlas, conferencias y talleres en torno a la temática de la Cultura Libre. Paralelamente habrá varios espectáculos de música en vivo, cerrando el sábado 30 con un Festival de bandas independientes. El evento esta organizado por Creative Commons Uruguay y se llevará a cabo en Montevideo, en conjunto con el Barrio de las Artes y con la participación de los sellos independientes Vía Láctea, Feel de Agua, El Festival de Música Libre (FML) será realizado en un espacio abierto en la esquina de las calles Soriano y Ciudadela.</p>
+                </div>
+            </div>
+
+            <div id="schedule" class="row">
+                <div class="large-12 columns">
+                    <h1>Cronograma</h1>
+                    <div class="day large-12 columns">
+                        <h3>Día 1 <small>sábado 23</small></h3>
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td><strong>16.00hs</strong></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td><strong>16.00hs</strong></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td><strong>16.00hs</strong></td>
+                                    <td></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="day large-12 columns">
+                        <h3>Día 1 <small>sábado 23</small></h3>
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td><strong>16.00hs</strong></td>
+                                    <td>Presentación de la programación de la Semana de la Música Libre</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>19.00hs</strong></td>
+                                    <td>Brindis</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>21.00hs</strong></td>
+                                    <td>Cierre con música en vivo</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="day large-12 columns">
+                        <h3>Día 2 <small>jueves 28</small></h3>
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td><strong>16.00hs</strong></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td><strong>16.00hs</strong></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td><strong>16.00hs</strong></td>
+                                    <td></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="day large-12 columns">
+                        <h3>Día 3 <small>viernes 29</small></h3>
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td><strong>16.00hs</strong></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td><strong>16.00hs</strong></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td><strong>16.00hs</strong></td>
+                                    <td></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="day large-12 columns">
+                        <h3>Día 4 <small>sábado 30</small></h3>
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td><strong>16.00hs</strong></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td><strong>16.00hs</strong></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td><strong>16.00hs</strong></td>
+                                    <td></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <div id="labels" class="row">
+                <div class="large-12 columns">
+                    <h1>Participan</h1>
+                    <ul>
+                        <li class="logo-sello">
+                            <a href="http://vialacteaediciones.com" target="blank">
+                                <img class="logo" src="public/images/via-lactea.jpg">
+                            </a>
+                        </li>
+                        <li class="logo-sello">
+                            <a href="http://feeldeagua.net" target="blank">
+                                <img class="logo" src="public/images/feel-de-agua.jpg">
+                            </a>
+                        </li>
+                        <li class="logo-sello">
+                            <a href="https://www.facebook.com/enlosnervios?fref=ts" target="blank">
+                                <img class="logo" src="public/images/en-los-nervios.jpg">
+                            </a>
+                        </li>
+                        <li class="logo-sello">
+                            <a href="https://www.facebook.com/octavo.octavo.1?fref=ts" target="blank">
+                                <img class="logo" src="public/images/el-octavo.jpg">
+                            </a>
+                        </li>
+                        <li class="logo-sello">
+                            <a href="https://www.facebook.com/estampita?fref=ts" target="blank">
+                                <img class="logo" src="public/images/estampita.jpg">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div id="map" class="row"></div>
+        </div>
+
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script src="http://api.tiles.mapbox.com/mapbox.js/v1.4.2/mapbox.js"></script>
+        <script src="public/stylesheets/foundation/js/vendor/custom.modernizr.js"></script>
+        <script src="public/javascripts/jquery-scrollspy.js"></script>
+        <script src="public/javascripts/jquery.slimscroll.min.js"></script>
+        <script src="public/javascripts/main.js"></script>
+        <script src="public/javascripts/jquery-scrollspy.js"></script>
+    </body>
+</html>
+=======
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"> 
+        <title>Semana de la Música Libre</title>
+        <link rel="stylesheet" href="public/stylesheets/foundation/css/normalize.css">
+        <link rel="stylesheet" href="public/stylesheets/foundation/css/foundation.css">
+        <link rel="stylesheet" href="public/stylesheets/style.css">
+        <link rel="stylesheet" href="http://api.tiles.mapbox.com/mapbox.js/v1.4.2/mapbox.css">
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Oswald">
+    </head>
+
+    <body>
+        <div class="contain-to-grid fixed">
+            <nav class="top-bar">
+                <ul class="title-area">
+                    <li class="name"></li>
+                </ul>
+                <section class="top-bar-section">
+                    <ul>
+                        <li class="divider"></li>
+                        <li class="active">
+                            <a href="#" class="top-bar-link">Portada</a>
+                        </li>
+                        <li class="divider"></li>
+                        <li class="active">
+                            <a href="#about" class="top-bar-link">¿Qué es?</a>
+                        </li>
+                        <li class="divider"></li>
+                        <li class="active">
+                            <a href="#schedule" class="top-bar-link">Cronograma</a>
+                        </li>
+                        <li class="divider"></li>
+                        <li class="active">
+                            <a href="#labels" class="top-bar-link">Participan</a>
+                        </li>
+                        <li class="divider"></li>
+                        <li class="active">
+                            <a href="#" class="top-bar-link">Cómo llegar</a>
+                        </li>
+                        <li class="divider"></li>
+                        <li class="active">
+                            <a href="#" class="top-bar-link">Contacto</a>
+                        </li>
+                        <li class="divider"></li>
+                    </ul>
+                </section>
+            </nav>
+        </div>
+
+        <div id="main">
+            <div id="map" class="row">
+                <div class="large-6 columns">
+                    <h1>¿Qué es?</h1>
+                    <p>Durante la última semana del mes de noviembre se llevará a cabo en Uruguay la Semana de la Música Libre (SML), evento que contará con actividades, charlas, conferencias y talleres en torno a la temática de la Cultura Libre. Paralelamente habrá varios espectáculos de música en vivo, cerrando el sábado 30 con un Festival de bandas independientes. El evento esta organizado por Creative Commons Uruguay y se llevará a cabo en Montevideo, en conjunto con el Barrio de las Artes y con la participación de los sellos independientes Vía Láctea, Feel de Agua, El Festival de Música Libre (FML) será realizado en un espacio abierto en la esquina de las calles Soriano y Ciudadela.</p>
+                </div>
+            </div>
+
+            <div id="schedule" class="row">
+                <div class="large-12 columns">
+                    <h1>Cronograma</h1>
+                    <div class="day large-12 columns">
+                        <h3>Día 1 <small>sábado 23</small></h3>
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td><strong>16.00hs</strong></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td><strong>16.00hs</strong></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td><strong>16.00hs</strong></td>
+                                    <td></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="day large-12 columns">
+                        <h3>Día 1 <small>sábado 23</small></h3>
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td><strong>16.00hs</strong></td>
+                                    <td>Presentación de la programación de la Semana de la Música Libre</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>19.00hs</strong></td>
+                                    <td>Brindis</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>21.00hs</strong></td>
+                                    <td>Cierre con música en vivo</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="day large-12 columns">
+                        <h3>Día 2 <small>jueves 28</small></h3>
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td><strong>16.00hs</strong></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td><strong>16.00hs</strong></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td><strong>16.00hs</strong></td>
+                                    <td></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="day large-12 columns">
+                        <h3>Día 3 <small>viernes 29</small></h3>
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td><strong>16.00hs</strong></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td><strong>16.00hs</strong></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td><strong>16.00hs</strong></td>
+                                    <td></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="day large-12 columns">
+                        <h3>Día 4 <small>sábado 30</small></h3>
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td><strong>16.00hs</strong></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td><strong>16.00hs</strong></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td><strong>16.00hs</strong></td>
+                                    <td></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <div id="labels" class="row">
+                <div class="large-12 columns">
+                    <h1>Participan</h1>
+                    <ul>
+                        <li class="logo-sello">
+                            <a href="http://vialacteaediciones.com" target="blank">
+                                <img class="logo" src="public/images/via-lactea.jpg">
+                            </a>
+                        </li>
+                        <li class="logo-sello">
+                            <a href="http://feeldeagua.net" target="blank">
+                                <img class="logo" src="public/images/feel-de-agua.jpg">
+                            </a>
+                        </li>
+                        <li class="logo-sello">
+                            <a href="https://www.facebook.com/enlosnervios?fref=ts" target="blank">
+                                <img class="logo" src="public/images/en-los-nervios.jpg">
+                            </a>
+                        </li>
+                        <li class="logo-sello">
+                            <a href="https://www.facebook.com/octavo.octavo.1?fref=ts" target="blank">
+                                <img class="logo" src="public/images/el-octavo.jpg">
+                            </a>
+                        </li>
+                        <li class="logo-sello">
+                            <a href="https://www.facebook.com/estampita?fref=ts" target="blank">
+                                <img class="logo" src="public/images/estampita.jpg">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script src="http://api.tiles.mapbox.com/mapbox.js/v1.4.2/mapbox.js"></script>
+        <script src="public/stylesheets/foundation/js/vendor/custom.modernizr.js"></script>
+        <script src="public/javascripts/jquery-scrollspy.js"></script>
+        <script src="public/javascripts/jquery.slimscroll.min.js"></script>
+        <script src="public/javascripts/main.js"></script>
+        <script src="public/javascripts/jquery-scrollspy.js"></script>
+    </body>
+</html>
+>>>>>>> 46afcd3993e483dd4e1f272faf6906b1c55c46ac
