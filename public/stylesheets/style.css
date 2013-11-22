@@ -30,7 +30,7 @@ h1 {
     background: none;
 }
 
-.top-bar-section ul li.active > a {
+.top-bar-section ul li > a {
     background: none;
     font-weight: normal;
     font-size: 18px;
