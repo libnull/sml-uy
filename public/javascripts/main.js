@@ -20,7 +20,7 @@ $('a[href*=#]:not([href=#])').click(function() {
   }
 });
 
-$('.row').each(function() {
+$('.row:not(#about)').each(function() {
   var prevElemHeight = $(this).prev().height();
 
   $(this).css({top: prevElemHeight + 'px'});

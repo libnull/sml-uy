@@ -11,12 +11,12 @@ h1 {
 
 .row {
     padding: 0 10%;
-    position: absolute;
     min-width: 100%;
 }
 
 .top-bar {
     height: 70px;
+    z-index: 2000;
 }
 
 .top-bar-section ul {
@@ -54,8 +54,27 @@ h1 {
   margin-bottom: 20px;
 }
 
-#about {
-    background-color: #729fcf;
+#main {
+  margin-top: 70px;
+}
+
+#map .large-6 {
+    /*background: #729fcf;*/
+    background-color: #204a87;
+    color: #fff;
+    height: 600px;
+    opacity: 0.9;
+    padding: 50px;
+    position: absolute;
+    z-index: 1;
+}
+
+#map .large-6 p {
+    font-size: 1.3em;
+    line-height: 1.5em;
+}
+
+#about .large-6 {
 }
 
 #schedule table {
@@ -66,6 +85,10 @@ h1 {
 
 #schedule table tr {
   background-color: transparent;
+}
+
+#map {
+  height: 600px;
 }
 
 .logo {
