@@ -31,6 +31,10 @@ span.icon {
     min-width: 100%;
 }
 
+#top {
+     border-bottom: 5px solid white;
+}
+
 .top-bar {
     height: 70px;
 }
@@ -44,12 +48,14 @@ span.icon {
     display: table-cell;
     height: 100%;
     background: none;
+    font-family: 'Oswald', sans-serif;
 }
 
 .top-bar-section ul li.active > a {
     background: none;
     font-weight: normal;
     font-size: 18px;
+    font-family: 'Oswald', sans-serif;
 }
 
 .top-bar-section li a:not(.button) {
@@ -63,6 +69,10 @@ span.icon {
 
 .top-bar-link {
     font-family: 'Oswald';
+}
+
+.semana-logo {
+    margin-top: 10px;
 }
 
 #main {
@@ -88,8 +98,8 @@ span.icon {
 }
 
 #schedule .day footer {
-  background-color: #333;
-  color: #fff;
+  background-color: #ff7d4c;
+  color: #333;
   padding: 10px;
   padding-left: 30px;
 }
