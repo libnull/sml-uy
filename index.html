@@ -8,6 +8,7 @@
         <link rel="stylesheet" href="public/stylesheets/style.css">
         <link rel="stylesheet" href="http://api.tiles.mapbox.com/mapbox.js/v1.4.2/mapbox.css">
         <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Oswald">
+        <script src="public/stylesheets/foundation/js/vendor/custom.modernizr.js"></script>
     </head>
 
     <body>
@@ -16,6 +17,9 @@
                 <ul class="title-area">
                     <li class="semana-logo">
                         <img src="public/images/semana-chica.png">
+                    </li>
+                    <li class="toggle-topbar menu-icon">
+                        <a href="#"><span>Menu</span></a>
                     </li>
                 </ul>
                 <section class="top-bar-section">
@@ -42,10 +46,11 @@
                         </li>
                         <li class="divider"></li>
                         <li class="active">
-                            <a href="#" class="top-bar-link">Contacto</a>
+                            <a href="#contact" class="top-bar-link">Contacto</a>
                         </li>
                         <li class="divider"></li>
                     </ul>
+                    <ul class="right"></ul>
                 </section>
             </nav>
         </div>
@@ -53,103 +58,148 @@
         <div id="main">
 
             <div id="about" class="row">
-                <div class="large-6 columns large-centered">
+                <div class="large-12 columns large-centered">
                     <h1>¿Qué es?</h1>
-                    <p class="text-justify">Durante la última semana del mes de noviembre se llevará a cabo en Uruguay la Semana de la Música Libre (SML), evento que contará con actividades, charlas, conferencias y talleres en torno a la temática de la Cultura Libre. Paralelamente habrá varios espectáculos de música en vivo, cerrando el sábado 30 con un Festival de bandas independientes. El evento esta organizado por Creative Commons Uruguay y se llevará a cabo en Montevideo, en conjunto con el Barrio de las Artes y con la participación de los sellos independientes Vía Láctea, Feel de Agua, El Festival de Música Libre (FML) será realizado en un espacio abierto en la esquina de las calles Soriano y Ciudadela.</p>
+                    <div class="about-container">
+                        <p class="text-justify">
+                            Durante la última semana del mes de noviembre se llevará a cabo en Uruguay la Semana de la Música Libre (SML), este evento contará con el apoyo del programa Barrio de las Artes y con la organización de Creative Commons Uruguay y la Red de Sellos de Música Libre.
+                        </p>
+                        <p>
+                            Del 23 al 30 de noviembre se desarrollarán varias actividades, charlas, conferencias y talleres en torno a la temática de la Cultura Libre. Las locaciones elegidas en esta oportunidad son Espacio Pera de Goma y Café La Diaria, para las las actividades al aire libre el punto de encuentro será en la intersección de las calles Soriano y Ciudadela.
+                            Al término de cada jornada se podrán disfrutar de espectáculos de música en vivo. 
+                        </p> 
+
+                        <p>
+                            La SML concluirá el sábado 30 con un festival al aire libre con algunas de las bandas que integran los diferentes sellos (Nikikinki Records, Feel de Agua, En los Nervios, Vía Láctea Ediciones, El Octavo) y colectivos independientes que participan (Escafandra Registros, La Propia Cartonera, La Zanja Producciones, Esquizodelia)
+                        </p>
+                    </div>
                 </div>
             </div>
+        </div>
 
-            <div id="schedule" class="row">
-                <div class="large-12 columns">
-                    <h1>Cronograma</h1>
-                    <div class="day large-12 columns">
-                        <div class="activity-wrapper">
-                            <h3><span class="icon">&#128197;</span> Día 1 <small>sábado 23</small></h3>
-                            <table>
-                                <tbody>
-                                    <tr>
-                                        <td><strong>16.00hs</strong></td>
-                                        <td>Presentación de la programación de la Semana de la Música Libre</td>
-                                    </tr>
-                                    <tr>
-                                        <td><strong>19.00hs</strong></td>
-                                        <td>Brindis</td>
-                                    </tr>
-                                    <tr>
-                                        <td><strong>21.00hs</strong></td>
-                                        <td>Cierre con música en vivo</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                        <footer><strong>Ubicación: Café La Diaria - Soriano esq Ciudadela</strong></footer>
+        <div id="schedule" class="row">
+            <div class="large-12 columns">
+                <h1>Cronograma</h1>
+                <div class="day large-12 columns">
+                    <div class="activity-wrapper">
+                        <h3><span class="icon">&#128197;</span> Día 1 <small>sábado 23</small></h3>
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td><strong>19.00hs</strong></td>
+                                    <td>Apertura y brindis</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>19.30hs</strong></td>
+                                    <td>Presentación de la programación</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>20.30hs</strong></td>
+                                    <td>Cierre con música en vivo: UOH!</td>
+                                </tr>
+                            </tbody>
+                        </table>
                     </div>
-                    <div class="day large-12 columns">
-                        <div class="activity-wrapper">
-                            <h3><span class="icon">&#128197;</span> Día 2 <small>jueves 28</small></h3>
-                            <table>
-                                <tbody>
-                                    <tr>
-                                        <td><strong>16.00hs</strong></td>
-                                        <td></td>
-                                    </tr>
-                                    <tr>
-                                        <td><strong>16.00hs</strong></td>
-                                        <td></td>
-                                    </tr>
-                                    <tr>
-                                        <td><strong>16.00hs</strong></td>
-                                        <td></td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                        <footer><strong>Ubicación: Café La Diaria - Soriano esq Ciudadela</strong></footer>
+                    <footer><strong>Ubicación: Soriano esq Ciudadela</strong></footer>
+                </div>
+                <div class="day large-12 columns">
+                    <div class="activity-wrapper">
+                        <h3><span class="icon">&#128197;</span> Día 2 <small>jueves 28</small></h3>
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td><strong>19.00hs</strong></td>
+                                    <td>Episodio 3 Pera de Goma</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>20.30hs</strong></td>
+                                    <td>Charla / debate "Cultura Libre y Derecho de Autor"</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>21.30hs</strong></td>
+                                    <td> Taller de licenciamiento libre y abierto para obras artísticas</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>22.00hs</strong></td>
+                                    <td>Cierre con música en vivo: Individuo DC13</td>
+                                </tr>
+                            </tbody>
+                        </table>
                     </div>
-                    <div class="day large-12 columns">
+                    <footer><strong>Ubicación: Café La Diaria - Soriano 770</strong></footer>
+                </div>
+                <div class="day large-12 columns">
+                    <div class="activity-wrapper">
                         <h3><span class="icon">&#128197;</span> Día 3 <small>viernes 29</small></h3>
                         <table>
                             <tbody>
                                 <tr>
-                                    <td><strong>16.00hs</strong></td>
-                                    <td></td>
+                                    <td><strong>19.00hs</strong></td>
+                                    <td>Episodio 3 Pera de Goma</td>
                                 </tr>
                                 <tr>
-                                    <td><strong>16.00hs</strong></td>
-                                    <td></td>
+                                    <td><strong>19.30hs</strong></td>
+                                    <td>Charla / debate "Sellos y proyectos independientes"</td>
                                 </tr>
                                 <tr>
-                                    <td><strong>16.00hs</strong></td>
-                                    <td></td>
+                                    <td><strong>20.30hs</strong></td>
+                                    <td>Proyección del documental "La Propia Cartonera"</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>21.30hs</strong></td>
+                                    <td>Cierre con música en vivo: Limpiando Encontré Monedas</td>
                                 </tr>
                             </tbody>
                         </table>
                     </div>
-                    <div class="day large-12 columns">
+                    <footer><strong>Ubicación: Pera de Goma - Wilson F. Aldunate 1140 esq Durazno</strong></footer>
+                </div>
+
+                <div class="day large-12 columns">
+                    <div class="activity-wrapper">
                         <h3><span class="icon">&#128197;</span> Día 4 <small>sábado 30</small></h3>
                         <table>
                             <tbody>
                                 <tr>
-                                    <td><strong>16.00hs</strong></td>
-                                    <td></td>
+                                    <td><strong>17.00hs</strong></td>
+                                    <td>FESTIVAL DE MÚSICA LIBRE</td>
                                 </tr>
                                 <tr>
-                                    <td><strong>16.00hs</strong></td>
                                     <td></td>
+                                    <td>Alessandro Podestá</td>
                                 </tr>
                                 <tr>
-                                    <td><strong>16.00hs</strong></td>
                                     <td></td>
+                                    <td>División Burzaco</td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td>Comunismo Internacional</td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td>Pescado M</td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td>Power Chocolatín Experimento</td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td>Hijo Agrio</td>
                                 </tr>
                             </tbody>
                         </table>
                     </div>
+                    <footer><strong>Ubicación: Soriano esq Ciudadela</strong></footer>
                 </div>
             </div>
+        </div>
 
-            <div id="labels" class="row">
-                <div class="large-12 columns">
-                    <h1>Participan</h1>
+        <div id="labels" class="row">
+            <div class="large-12 columns">
+                <h1>Participan</h1>
+                <div class="label-container">
                     <ul class="small-block-grid-5">
                         <li class="logo-sello">
                             <a href="http://vialacteaediciones.com" target="blank">
@@ -176,15 +226,20 @@
                                 <img class="logo" src="public/images/estampita.jpg">
                             </a>
                         </li>
-                    </ul>
+                    </ul> 
                 </div>
             </div>
-            <div id="map" class="row"></div>
+        </div>
+        <div id="map" class="row"></div>
+        <div id="contact" class="row">
+            <div class="large-12 columns">
+                <h1>Contacto</h1>
+                <div class="label-container"></div>
+            </div>
         </div>
 
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script src="http://api.tiles.mapbox.com/mapbox.js/v1.4.2/mapbox.js"></script>
-        <script src="public/stylesheets/foundation/js/vendor/custom.modernizr.js"></script>
         <script src="public/javascripts/jquery-scrollspy.js"></script>
         <script src="public/javascripts/jquery.slimscroll.min.js"></script>
         <script src="public/javascripts/main.js"></script>

@@ -11,6 +11,7 @@
 
 body {
     position: initial;
+    font-family: 'Open Sans';
 }
 
 h1 {
@@ -31,7 +32,7 @@ span.icon {
 }
 
 #top {
-     border-bottom: 5px solid #000;
+     border-bottom: 5px solid #fff;
 }
 
 .top-bar {
@@ -57,6 +58,10 @@ span.icon {
     font-family: 'Oswald', sans-serif;
 }
 
+.top-bar-section ul li.active > a:hover {
+    background: #a4c2e4;
+}
+
 .top-bar-section li a:not(.button) {
     background: none;
     line-height: 70px;
@@ -71,6 +76,7 @@ span.icon {
 }
 
 .semana-logo {
+    padding-left: 10px;
     margin-top: 10px;
 }
 
@@ -94,13 +100,17 @@ span.icon {
 
 #schedule .day .activity-wrapper {
   padding: 15px 30px;
+  font-family: 'Open Sans';
+  font-weight: 300;
 }
 
 #schedule .day footer {
   background-color: #ff7d4c;
   color: #333;
   padding: 10px;
-  padding-left: 30px;
+  padding-left: 40px;
+  font-family: 'Open Sans';
+  font-size: 0.9em;
 }
 
 #schedule table {
@@ -119,4 +129,15 @@ span.icon {
 
 .logo {
     width: 150px;
+}
+
+.label-container {
+    padding-top: 12%;
+    padding-bottom: 18%;
+}
+
+.about-container {
+    padding-top: 5%;
+    padding-bottom: 15%;
+    font-family: 'Open Sans';
 }
