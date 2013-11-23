@@ -20,10 +20,8 @@ $('a[href*=#]:not([href=#])').click(function() {
   }
 });
 
-$('.row:not(#about)').each(function() {
+$('.row:not(#map)').each(function() {
   var prevElemHeight = $(this).prev().height();
 
   $(this).css({top: prevElemHeight + 'px'});
 });
-
-//$('#main').slimScroll({height:'800px'});
