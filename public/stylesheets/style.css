@@ -31,6 +31,10 @@ span.icon {
     min-width: 100%;
 }
 
+#top {
+     border-bottom: 5px solid white;
+}
+
 .top-bar {
     height: 70px;
 }
