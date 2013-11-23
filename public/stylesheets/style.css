@@ -44,12 +44,14 @@ span.icon {
     display: table-cell;
     height: 100%;
     background: none;
+    font-family: 'Oswald', sans-serif;
 }
 
 .top-bar-section ul li.active > a {
     background: none;
     font-weight: normal;
     font-size: 18px;
+    font-family: 'Oswald', sans-serif;
 }
 
 .top-bar-section li a:not(.button) {
@@ -63,6 +65,10 @@ span.icon {
 
 .top-bar-link {
     font-family: 'Oswald';
+}
+
+.semana-logo {
+    margin-top: 10px;
 }
 
 #main {
@@ -96,6 +102,12 @@ span.icon {
   height: 600px;
 }
 
+.logos {
+    top: 50%;
+}
+
 .logo {
     width: 150px;
 }
+
+
