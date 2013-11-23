@@ -80,6 +80,17 @@ span.icon {
 #schedule .day {
   background-color: #f0d2a4;
   margin-bottom: 20px;
+  padding: 0;
+}
+
+#schedule .day .activity-wrapper {
+  padding: 15px 30px;
+}
+
+#schedule .day footer {
+  background-color: #ff7d4c;
+  color: #333;
+  padding: 10px;
 }
 
 #schedule table {
