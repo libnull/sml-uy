@@ -149,6 +149,20 @@ span.icon {
 }
 
 #portada {
+    margin-top: 50px;
     border-top: 50px solid #a6c25c;
     border-bottom: 50px solid #a6c25c;
+}
+
+#contact {
+    background: #a6c25c;
+    padding-top: 10%;
+    padding-bottom: 25%;
+}
+
+.contacto-text {
+    padding-top: 30px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
 }

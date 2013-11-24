@@ -20,7 +20,7 @@ $('a[href*=#]:not([href=#])').click(function() {
   }
 });
 
-$('.row:not(#portada)').each(function() {
+$('.row:not(#portada,#map)').each(function() {
   var prevElemHeight = $(this).prev().height();
 
   $(this).css({top: prevElemHeight + 'px'});
