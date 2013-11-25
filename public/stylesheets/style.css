@@ -165,3 +165,67 @@ span.icon {
     text-align: center;
     font-size: 18px;
 }
+
+/*@media only screen and (max-width: 942px) {
+     Makes the responsive menu fit in the navigation container and change its background to black 
+    
+    #logo-semana {
+       visibility: hidden;
+    }
+    
+    .semana-logo {
+        visibility: hidden;
+    }
+    .title-area {
+        visibility: hidden;
+    }
+    
+    .top {
+        height: 50px;
+    }
+    
+    .top-bar {
+        height: 50px;
+        overflow: visible;
+    }
+    .top-bar ul {
+        background-color: rgba(0, 0, 0, 0.5);
+        padding-bottom: 13px;
+    }
+    
+    .top-bar-section {
+        height:50px;
+    }
+    
+    .top-bar-section ul li {
+         display: block;
+    }
+    
+    .top-bar-section ul li.active {
+        height: 50px;
+        font-size: 15px;
+    }
+    
+    .top-bar-section ul li.active > a{
+        font-size: 15px;
+    }
+     Change non active menu item color to black 
+    .top-bar-section ul li > a {
+        color: #fff;
+        height: 50px;
+        font-size: 15px;
+    }
+    
+    .top-bar-section li a:not(.button) {
+        line-height: 25px;
+    }
+     Give the BACK button after going in a submenu the appropriate filling 
+    .top-bar-section .dropdown li.title h5 a {
+        line-height: 57px;
+    }
+     This fixes the position and the color of the dropdown arrow 
+    .top-bar-section .has-dropdown > a:after {
+        border-color: rgba(255, 255, 255, 1) transparent transparent;
+        margin-top: 2.5px;
+    }
+}  end media query */
