@@ -17,7 +17,7 @@ body {
 h1 {
     font-family: 'Oswald', sans-serif;
     font-weight: normal;
-    margin-top: 100px;
+    margin-top: 85px;
     text-align: center;
 }
 
@@ -132,7 +132,7 @@ span.icon {
 }
 
 .label-container {
-    padding-top: 12%;
+    padding-top: 7%;
     padding-bottom: 18%;
 }
 
@@ -166,7 +166,7 @@ span.icon {
     font-size: 18px;
 }
 
-/*@media only screen and (max-width: 942px) {
+@media only screen and (max-width: 942px) {
      Makes the responsive menu fit in the navigation container and change its background to black 
     
     #logo-semana {
@@ -209,7 +209,7 @@ span.icon {
     .top-bar-section ul li.active > a{
         font-size: 15px;
     }
-     Change non active menu item color to black 
+
     .top-bar-section ul li > a {
         color: #fff;
         height: 50px;
@@ -219,13 +219,14 @@ span.icon {
     .top-bar-section li a:not(.button) {
         line-height: 25px;
     }
-     Give the BACK button after going in a submenu the appropriate filling 
+     /*Give the BACK button after going in a submenu the appropriate filling*/ 
     .top-bar-section .dropdown li.title h5 a {
         line-height: 57px;
     }
-     This fixes the position and the color of the dropdown arrow 
+     /*This fixes the position and the color of the dropdown arrow*/ 
     .top-bar-section .has-dropdown > a:after {
         border-color: rgba(255, 255, 255, 1) transparent transparent;
         margin-top: 2.5px;
     }
-}  end media query */
+} 
+/*end media query*/
